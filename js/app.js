@@ -18,7 +18,7 @@
   };
 
   const state = {
-    balance: Number(localStorage.getItem(STORAGE_KEYS.balance)) || 1500000,
+    balance: Number(localStorage.getItem(STORAGE_KEYS.balance)) || 50000,
     transactions: JSON.parse(localStorage.getItem(STORAGE_KEYS.transactions) || "[]"),
     activeTagihanCat: "pln",
     pulsaType: "pulsa",
